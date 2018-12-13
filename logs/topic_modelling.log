@@ -1,0 +1,532 @@
+== Starting run at Sat Dec  8 19:36:08 CET 2018
+== Job ID: 223519
+['australian essays ',
+ 'francis w l adams ',
+ 'melbourne ',
+ 'william inglis &amp ',
+ '1886 ',
+ 'matthew arnold england ',
+ 'master send boy ',
+ 'watches cross-bow bird ',
+ 'swoop quarry carried aloft ',
+ 'cries victory flight ']
+[['australian', 'essays'], ['francis', 'adams'], ['melbourne'], ['william', 'inglis', 'amp'], [], ['matthew', 'arnold', 'england'], ['master', 'send', 'boy'], ['watches', 'cross', 'bow', 'bird'], ['swoop', 'quarry', 'carried', 'aloft'], ['cries', 'victory', 'flight']]
+[['essay'], ['francis'], ['melbourne'], ['william', 'inglis', 'amp'], [], ['england'], ['master', 'boy'], [], ['quarry'], ['cry', 'victory', 'flight']]
+[[(0, 1)]]
+[(0,
+  '0.065*"time" + 0.023*"street" + 0.022*"spirit" + 0.022*"place" + '
+  '0.021*"house" + 0.020*"door" + 0.019*"child" + 0.018*"world" + 0.015*"look" '
+  '+ 0.015*"reason"'),
+ (1,
+  '0.056*"thing" + 0.049*"life" + 0.027*"poet" + 0.018*"knowledge" + '
+  '0.016*"form" + 0.015*"sense" + 0.015*"black" + 0.014*"order" + 0.013*"line" '
+  '+ 0.013*"beauty"'),
+ (2,
+  '0.039*"way" + 0.026*"work" + 0.026*"fact" + 0.022*"water" + 0.019*"boat" + '
+  '0.018*"poetry" + 0.016*"idea" + 0.015*"matter" + 0.014*"bushranger" + '
+  '0.014*"point"'),
+ (3,
+  '0.053*"day" + 0.031*"people" + 0.028*"mind" + 0.022*"convict" + '
+  '0.019*"power" + 0.018*"voice" + 0.017*"country" + 0.017*"literature" + '
+  '0.015*"air" + 0.014*"study"'),
+ (4,
+  '0.044*"woman" + 0.020*"view" + 0.018*"light" + 0.017*"lesson" + '
+  '0.016*"friend" + 0.016*"piece" + 0.016*"fellow" + 0.015*"play" + '
+  '0.014*"camp" + 0.013*"help"'),
+ (5,
+  '0.046*"word" + 0.040*"hand" + 0.027*"room" + 0.027*"year" + 0.023*"book" + '
+  '0.022*"science" + 0.021*"moment" + 0.017*"party" + 0.016*"minute" + '
+  '0.014*"ground"'),
+ (6,
+  '0.058*"eye" + 0.030*"heart" + 0.028*"morning" + 0.024*"face" + '
+  '0.020*"truth" + 0.020*"colonel" + 0.017*"week" + 0.016*"soul" + '
+  '0.015*"land" + 0.015*"effect"'),
+ (7,
+  '0.212*"man" + 0.020*"foot" + 0.015*"love" + 0.014*"boy" + 0.013*"overseer" '
+  '+ 0.011*"settler" + 0.010*"chance" + 0.010*"tribe" + 0.009*"distance" + '
+  '0.009*"rashleigh"'),
+ (8,
+  '0.050*"night" + 0.027*"hour" + 0.025*"thought" + 0.023*"body" + 0.022*"god" '
+  '+ 0.019*"history" + 0.019*"death" + 0.018*"nature" + 0.016*"father" + '
+  '0.015*"tree"'),
+ (9,
+  '0.031*"head" + 0.031*"girl" + 0.025*"prisoner" + 0.020*"music" + '
+  '0.019*"arm" + 0.016*"society" + 0.013*"ship" + 0.013*"sight" + 0.012*"bed" '
+  '+ 0.012*"dog"')]
+
+Perplexity:  -9.626502819729934
+/home/users/tsaglik/.local/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/home/users/tsaglik/.local/lib/python3.6/site-packages/gensim/models/phrases.py:598: UserWarning: For a faster implementation, use the gensim.models.phrases.Phraser class
+  warnings.warn("For a faster implementation, use the gensim.models.phrases.Phraser class")
+
+Coherence Score:  0.5387688450406165
+Mallet LDA: 10 topics, 4 topic bits, 1111 topic mask
+Data loaded.
+max tokens: 389
+total tokens: 826283
+<10> LL/token: -10.43325
+<20> LL/token: -10.19395
+<30> LL/token: -9.9967
+<40> LL/token: -9.76486
+
+0	5	hand eye man boy day time word father head bit cabell girl heart lady lip child arm sir mother night 
+1	5	people man law girl mother son year money day matter class state time country idea life city colony school heart 
+2	5	man life thing world book mind god year time woman soul love spirit nature heart hand question truth form beauty 
+3	5	land ship boat sea island man native captain country day officer water governor time convict vessel board mile deck settler 
+4	5	day man time night week month woman money year work thing eye head lot evening pound tea gold station sydney 
+5	5	place man party time ground enemy force body mile day country order point shore number stone soldier spot hill hour 
+6	5	man time life day friend thing love father word power experience heart knowledge sir hand case world australia reason opinion 
+7	5	tree man water bird air eye bourne light night day sun sound house leaf branch shell sea foot hat hand 
+8	5	man face room door eye woman hand voice girl street thought heart night wife house betty day time jame mrs 
+9	5	horse foot man hut night bush cattle station yard day sheep head dog camp track grass black river water time 
+
+<50> LL/token: -9.53823
+<60> LL/token: -9.36365
+<70> LL/token: -9.23392
+<80> LL/token: -9.1396
+<90> LL/token: -9.06911
+
+0	5	hand boy father mother sir word girl man heart head bit time arm child eye cabell brother hell jame lady 
+1	5	year people country money family man son house matter law school city mr gentleman question person sydney home daughter england 
+2	5	life thing love world mind soul book god man heart nature word spirit beauty truth sense thought song child people 
+3	5	land sea ship boat island native captain man sydney board governor convict mate town officer government prisoner vessel country bay 
+4	5	day time night man week gold month work morning evening house lot wife tea thing dinner pound hour money pocket 
+5	5	man place body party company order point time force enemy line spot soldier shore war chance number hour danger position 
+6	5	man time friend life case hope death mind opinion experience duty effort condition day fate word fact fortune care doubt 
+7	5	tree water sun air foot light bird sky rock flower stone garden star earth wind bourne shadow cloud sea wood 
+8	5	eye face woman room hand door girl voice moment street hair silence house tear minute arm heart window lip uncle 
+9	5	horse night bush mile station river head road foot hut hill dog day cattle yard camp ground sheep black bank 
+
+<100> LL/token: -9.01806
+<110> LL/token: -8.98004
+<120> LL/token: -8.94926
+<130> LL/token: -8.9272
+<140> LL/token: -8.90698
+
+0	5	hand father boy mother heart girl sir child word mrs brother bit lady lord cabell jame time hell head thing 
+1	5	year people country money gentleman family son sydney colony mr law school city home england person australia question matter class 
+2	5	life thing love world mind word soul book god heart spirit nature thought truth beauty song woman power sense story 
+3	5	land sea ship boat island native captain board mate governor sydney convict prisoner vessel man town bay deck king government 
+4	5	day night time morning house week gold hour work wife evening month man tea lot dinner paper bed pocket pound 
+5	5	man place body party point line order force chance war company enemy position time danger soldier field number spot state 
+6	5	man time friend life case death hope mind fact reason duty fate condition opinion care manner trouble peace experience doubt 
+7	5	tree water foot sun light air bird rock sky earth wind stone flower star garden bourne shadow sea cloud darkness 
+8	5	eye face woman hand room door voice moment girl street arm hair lip silence tear minute window uncle figure head 
+9	5	horse head mile bush station river road hill hut dog night cattle yard camp sheep ground black bank day grass 
+
+<150> LL/token: -8.89017
+<160> LL/token: -8.87398
+<170> LL/token: -8.85949
+<180> LL/token: -8.84435
+<190> LL/token: -8.83389
+
+0	5	hand father boy girl mother child heart sir wife word mrs lady brother bit lord husband thing cabell jame hell 
+1	5	year people country money gentleman sydney colony family son mr law school city person england question australia home class state 
+2	5	life thing world love word soul heart book god spirit nature thought mind story power woman truth song beauty sense 
+3	5	land sea ship boat island native captain mate board governor convict place prisoner vessel bay deck sydney shore king town 
+4	5	day night time house morning hour week gold work evening month bed tea dinner lot pocket fellow pound wife pair 
+5	5	man body place party chance company line position order force war enemy point soldier danger officer field mark fear sign 
+6	5	man time friend life mind death case hope fact duty reason matter manner condition doubt fate opinion trouble care peace 
+7	5	tree water foot sun earth bird rock light sky air stone wind flower garden star bourne sea shadow darkness cloud 
+8	5	eye face hand woman room voice door moment arm street minute hair girl lip silence head tear ear window figure 
+9	5	horse head mile bush station river road hill hut ground dog cattle yard camp sheep bank black night foot grass 
+
+<200> LL/token: -8.82299
+<210> LL/token: -8.81282
+<220> LL/token: -8.8062
+<230> LL/token: -8.79649
+<240> LL/token: -8.79055
+
+0	5	girl father boy mother child heart wife hand sir lady word mrs brother thing husband love lord bit cabell jame 
+1	5	year people country money gentleman sydney colony family son person mr law school city england business town australia question home 
+2	5	life thing world word love soul book god heart spirit thought nature woman story song mind truth beauty power sense 
+3	5	land sea ship boat island native captain mate board governor convict place prisoner vessel king bay deck shore spot bushranger 
+4	5	day night time house hour morning week gold bed evening work tea sleep dinner half piece month pocket paper pound 
+5	5	man body place party chance company time order line force position war officer enemy soldier fear number point field danger 
+6	5	man time friend life mind death hope case matter manner doubt duty fact reason peace trouble fate condition fortune feeling 
+7	5	tree water foot sun bird earth rock sky air light stone flower star garden bourne wind shadow sea darkness cloud 
+8	5	eye hand face woman room door voice moment arm street head hair lip silence mouth tear minute light window ear 
+9	5	horse head bush station river mile road hill hut dog cattle yard camp sheep ground bank black grass night track 
+
+<250> LL/token: -8.7836
+<260> LL/token: -8.7766
+<270> LL/token: -8.77477
+<280> LL/token: -8.77165
+<290> LL/token: -8.7665
+
+0	5	girl father boy mother child wife heart sir hand lady thing mrs word love brother bit husband lord cabell jame 
+1	5	year people country money gentleman sydney colony family person son mr law school city town england race work australia question 
+2	5	life thing world word heart soul book spirit love woman thought god nature song power truth beauty story sense idea 
+3	5	land sea ship boat island native captain mate board place governor convict prisoner vessel bay deck shore king bushranger water 
+4	5	day night time house hour morning week gold bed evening work paper sleep tea table dinner half pocket pound piece 
+5	5	man body chance party company place order fear line officer force war soldier mark enemy blood sign position time point 
+6	5	man time friend mind life death hope case matter manner reason trouble fact duty doubt fate condition peace care fortune 
+7	5	tree foot water sun earth bird rock sky light stone flower air star garden bourne wind shadow darkness cloud fish 
+8	5	eye hand face room woman voice door arm moment street head hair lip silence mouth tear minute ear window figure 
+9	5	horse head bush station mile river road hill hut dog cattle yard camp ground sheep bank black place grass foot 
+
+<300> LL/token: -8.75884
+<310> LL/token: -8.75688
+<320> LL/token: -8.75715
+<330> LL/token: -8.754
+<340> LL/token: -8.75139
+
+0	5	girl father boy mother child heart wife thing sir lady word mrs love brother hand husband lord bit cabell jame 
+1	5	year country people money gentleman sydney colony family person son mr work law school business city house england town australia 
+2	5	life world thing word soul book god spirit heart thought love woman nature song mind story power truth beauty idea 
+3	5	land sea ship boat island native captain place mate board governor convict prisoner king vessel bay deck shore wind bushranger 
+4	5	day night time house hour morning week gold bed evening paper work table sleep tea dinner half piece pocket minute 
+5	5	man body chance company party order line fear officer soldier place force position war mark blood enemy sign point danger 
+6	5	man time friend life death mind case hope matter trouble manner doubt reason fact duty peace fate condition month character 
+7	5	tree foot water sun earth bird rock sky air stone flower light star garden bourne shadow wind darkness cloud fish 
+8	5	eye hand face room woman voice door head moment arm street hair lip silence mouth light tear ear window finger 
+9	5	horse bush head station river mile road hill hut dog cattle yard ground day camp sheep place bank black grass 
+
+<350> LL/token: -8.75053
+<360> LL/token: -8.74828
+<370> LL/token: -8.74588
+<380> LL/token: -8.7459
+<390> LL/token: -8.74581
+
+0	5	girl father boy mother heart child wife sir lady love thing mrs word brother hand husband lord bit cabell jame 
+1	5	year people money country gentleman sydney colony family person son mr land government law school city england town australia business 
+2	5	life thing world word soul book spirit god thought heart nature love power woman mind truth beauty song story sense 
+3	5	sea land ship boat island native captain place mate board governor king convict water prisoner vessel spot point bay deck 
+4	5	day night house time hour morning week gold bed evening work table tea sleep dinner paper minute sergeant pocket afternoon 
+5	5	man body chance party company order mark line fear soldier force war officer enemy blood sign position danger place moment 
+6	5	man time friend life death mind case hope matter reason manner trouble duty fact peace doubt fate condition feeling fellow 
+7	5	tree foot water sun earth bird light rock sky stone flower air garden star bourne shadow wood wind darkness cloud 
+8	5	eye hand face woman room voice door arm moment head street hair lip silence mouth tear ear window finger step 
+9	5	horse head bush station river mile road hill day hut dog cattle yard camp ground sheep place bank black grass 
+
+<400> LL/token: -8.7463
+<410> LL/token: -8.74304
+<420> LL/token: -8.74045
+<430> LL/token: -8.73723
+<440> LL/token: -8.74062
+
+0	5	girl father boy heart mother child wife sir love lady word woman thing mrs brother bit husband lord cabell jame 
+1	5	year country people money land gentleman sydney colony family person son mr government law school city england australia town month 
+2	5	world life thing word soul book spirit thought god nature story heart song power truth love idea beauty people sense 
+3	5	sea ship boat island place native captain land mate board king governor water convict prisoner vessel point spot bay deck 
+4	5	day night house time hour morning week gold bed work evening sleep paper tea dinner sergeant minute half pocket doctor 
+5	5	man body chance order company party fear mark line soldier officer force war time enemy sign number moment position danger 
+6	5	man time friend life mind death case hope matter trouble manner reason fact duty peace doubt feeling fate condition care 
+7	5	tree foot water sun earth bird light rock sky air stone flower star garden bourne shadow darkness cloud wood wind 
+8	5	eye hand face voice room door moment woman arm street head hair lip mouth silence tear ear window finger figure 
+9	5	horse head bush station river mile day road hill hut dog cattle ground yard camp sheep bank black place grass 
+
+<450> LL/token: -8.73945
+<460> LL/token: -8.74089
+<470> LL/token: -8.73936
+<480> LL/token: -8.73779
+<490> LL/token: -8.73502
+
+0	5	girl heart father boy woman mother child wife sir lady love thing word mrs brother husband bit lord cabell jame 
+1	5	year country people land money gentleman sydney colony family person government law school city england month mr australia son town 
+2	5	thing world life word soul book spirit god thought nature love power story truth idea song people mind beauty sense 
+3	5	sea ship boat island native place captain mate land board king governor convict day time water prisoner vessel point bay 
+4	5	day night house time hour morning week gold bed work evening sleep tea paper table dinner sergeant doctor pocket afternoon 
+5	5	man body company party fear order mark line soldier force war position officer bourne enemy blood sign time place moment 
+6	5	man time friend life mind death case hope matter manner trouble reason peace doubt duty fact fate condition feeling care 
+7	5	tree foot water sun earth bird rock sky air light stone flower star garden wood shadow note darkness cloud wind 
+8	5	eye hand face voice room door arm head moment street hair lip mouth silence tear ear window finger figure light 
+9	5	horse head bush mile station river road hill day hut dog cattle yard ground camp sheep bank black grass place 
+
+<500> LL/token: -8.73305
+<510> LL/token: -8.73297
+<520> LL/token: -8.73408
+<530> LL/token: -8.73504
+<540> LL/token: -8.73498
+
+0	5	girl heart father boy woman mother child wife sir love lady thing mrs word brother bit husband lord cabell jame 
+1	5	year country land money sydney gentleman people colony family person government town law school city england business month australia mr 
+2	5	thing world life word soul book spirit people power nature god thought work song idea story truth beauty love sense 
+3	5	sea ship boat island native place captain mate time land board day king governor convict water prisoner vessel point bay 
+4	5	day night house hour time morning week gold bed evening work table paper sleep tea dinner sergeant doctor pocket afternoon 
+5	5	man body company fear order party blood line mark soldier chance force war bourne position officer enemy sign place moment 
+6	5	man time friend life mind death case hope matter trouble manner duty doubt peace reason month fate feeling condition care 
+7	5	tree foot water sun earth bird rock sky stone light flower air star garden shadow wood darkness note wind cloud 
+8	5	eye hand face voice room door head moment arm street hair lip mouth silence tear ear light woman step window 
+9	5	horse head bush station mile river day road hill hut dog cattle ground yard camp sheep bank black grass track 
+
+<550> LL/token: -8.73383
+<560> LL/token: -8.7342
+<570> LL/token: -8.73092
+<580> LL/token: -8.72978
+<590> LL/token: -8.72878
+
+0	5	girl heart father woman boy mother child wife love sir lady thing mrs word bit brother husband lord cabell jame 
+1	5	year land country money sydney gentleman people colony person family government month law school city town england australia business class 
+2	5	thing world life word soul book spirit god people nature power song idea thought truth beauty work question sense story 
+3	5	sea ship boat island native place captain mate board time water king governor convict prisoner vessel day wind land bay 
+4	5	day night house hour time morning week gold bed evening work paper table sleep tea dinner sergeant doctor minute pocket 
+5	5	man body fear company party order line mark blood soldier force officer war bourne enemy sign position danger field place 
+6	5	man time life friend mind death case hope matter trouble reason doubt peace manner duty fellow feeling fate care month 
+7	5	tree foot water sun earth bird rock sky air stone flower light star garden wood shadow note darkness cloud fish 
+8	5	eye hand face voice room door head arm moment street hair lip mouth silence light tear ear step window finger 
+9	5	horse bush head mile station river road hill hut dog cattle day yard camp sheep ground bank black grass place 
+
+<600> LL/token: -8.72752
+<610> LL/token: -8.72534
+<620> LL/token: -8.72644
+<630> LL/token: -8.72503
+<640> LL/token: -8.72519
+
+0	5	girl heart father boy woman mother child wife love sir thing lady mrs word brother bit husband lord son cabell 
+1	5	year country land money people sydney gentleman colony family town person government month law city england school business australia mr 
+2	5	thing world life word soul book spirit god nature idea people power song story truth sense heart beauty thought pleasure 
+3	5	sea ship boat island native place captain mate board king time water governor day convict prisoner vessel wind land point 
+4	5	day night house time hour morning week gold bed work evening paper table sleep tea dinner sergeant doctor pocket pound 
+5	5	man body fear party order company line mark blood soldier force officer war bourne enemy sign position danger police number 
+6	5	man time friend life mind death case hope matter trouble reason manner duty doubt peace care chance feeling fate fact 
+7	5	tree foot water sun earth bird rock sky stone flower air light star garden shadow wood note cloud darkness fish 
+8	5	eye hand face voice room door head moment arm street hair lip mouth silence woman light minute ear window step 
+9	5	horse head bush station mile river day road hill hut dog cattle ground yard camp sheep bank place black grass 
+
+<650> LL/token: -8.72526
+<660> LL/token: -8.7231
+<670> LL/token: -8.72398
+<680> LL/token: -8.72433
+<690> LL/token: -8.72172
+
+0	5	girl heart woman father boy mother child wife sir love lady thing word mrs brother husband bit lord cabell jame 
+1	5	year country land money gentleman sydney people colony family person month town government law city england school business australia work 
+2	5	thing world life word soul book spirit people nature idea god power story truth love song sense beauty work question 
+3	5	sea ship boat island native place captain day mate time board king governor convict prisoner vessel land water wind point 
+4	5	day night house time hour morning week gold bed evening work paper table sleep tea minute dinner sergeant doctor pocket 
+5	5	man body fear party order blood company mark line soldier force war bourne officer enemy sign position chance moment danger 
+6	5	man time life friend mind death case hope reason matter trouble thought care duty peace manner doubt fate feeling answer 
+7	5	tree foot water sun earth bird rock sky stone flower light air star garden shadow cloud wood darkness note fish 
+8	5	eye hand face voice room door head arm moment street hair lip mouth silence light ear window step finger figure 
+9	5	horse head mile bush station day river road hill hut dog cattle yard ground camp sheep place bank black grass 
+
+<700> LL/token: -8.72256
+<710> LL/token: -8.72301
+<720> LL/token: -8.72246
+<730> LL/token: -8.72326
+<740> LL/token: -8.72508
+
+0	5	girl heart father boy mother child woman wife love sir thing lady mrs word brother husband lord bit son cabell 
+1	5	year land country money sydney gentleman colony people family person town government law city england month business australia work class 
+2	5	thing world life word people soul book spirit god power nature idea song work truth story sense beauty heart pleasure 
+3	5	sea ship boat place island native captain mate time board king day governor convict prisoner vessel water land wind bay 
+4	5	day night house hour morning time gold bed week evening table paper work sleep tea dinner minute sergeant doctor half 
+5	5	man body party fear order line blood company mark soldier position force war officer bourne enemy sign danger number police 
+6	5	man time friend life mind death case hope matter trouble reason peace duty fellow month care chance thought doubt fate 
+7	5	tree foot water sun earth bird rock sky light air stone flower star garden shadow darkness cloud fish wood wind 
+8	5	eye hand face voice room door arm moment head street hair mouth lip woman silence ear window shoulder finger figure 
+9	5	horse day bush mile head station river road hill hut dog cattle yard camp sheep ground bank black time night 
+
+<750> LL/token: -8.72541
+<760> LL/token: -8.72516
+<770> LL/token: -8.72785
+<780> LL/token: -8.72394
+<790> LL/token: -8.72483
+
+0	5	girl heart father boy woman mother child wife love sir lady thing word mrs brother husband bit lord son cabell 
+1	5	year land country money gentleman sydney colony person family people month government law city town england business australia work mr 
+2	5	thing world life word people soul book spirit god nature idea power truth song sense story work question beauty pleasure 
+3	5	sea ship place boat island native captain day mate time board king governor convict water prisoner vessel wind bay deck 
+4	5	day night house hour morning time gold bed week evening table work paper minute sleep tea dinner sergeant doctor pocket 
+5	5	man body fear party order company mark soldier force war officer bourne blood enemy sign line effect danger point number 
+6	5	man time friend life mind death case hope trouble reason peace fellow doubt feeling matter thought manner care duty fate 
+7	5	tree foot water sun earth bird rock sky air stone light flower garden star line shadow cloud darkness fish sand 
+8	5	eye hand face voice room door moment arm head street hair lip mouth silence ear woman light step window finger 
+9	5	horse day bush head mile station river road hill hut dog cattle yard camp ground sheep black night bank place 
+
+<800> LL/token: -8.72233
+<810> LL/token: -8.7253
+<820> LL/token: -8.72555
+<830> LL/token: -8.72256
+<840> LL/token: -8.7215
+
+0	5	girl heart father woman boy mother child wife love sir lady thing mrs word bit brother husband son lord cabell 
+1	5	year land country money gentleman sydney colony person family government people town law city england month australia business class work 
+2	5	thing world life word people soul book spirit god power nature idea song work truth story beauty sense question fact 
+3	5	sea place ship boat island native day captain mate time board wind king governor convict prisoner vessel water point bay 
+4	5	day night house time morning hour gold bed week evening work paper table sleep tea minute dinner sergeant doctor pocket 
+5	5	man body party fear line order soldier force company war blood number bourne officer enemy sign mark position danger time 
+6	5	man time friend life mind death case hope matter trouble reason thought month duty fellow peace feeling manner doubt care 
+7	5	tree foot water sun earth bird rock sky stone flower air light star garden shadow darkness cloud fish sand spring 
+8	5	eye hand face voice room door moment arm head street hair lip mouth woman silence light ear tear window step 
+9	5	horse head bush mile station river day road hill hut dog cattle yard camp ground sheep black night track bank 
+
+<850> LL/token: -8.72143
+<860> LL/token: -8.72298
+<870> LL/token: -8.72299
+<880> LL/token: -8.72385
+<890> LL/token: -8.7253
+
+0	5	girl heart father woman boy mother child wife love sir thing lady word mrs bit brother husband son lord cabell 
+1	5	year country land money gentleman sydney person colony family people town government month law city england business australia class mr 
+2	5	thing world life people word soul book spirit god power nature idea song truth beauty work sense fact question story 
+3	5	sea place ship boat island day native captain mate time board water king governor convict wind land prisoner vessel bay 
+4	5	day night house hour morning time gold bed week evening work table paper sleep tea minute dinner sergeant doctor pocket 
+5	5	man body party fear order line blood mark officer soldier position force company war bourne enemy sign point danger number 
+6	5	man time friend life mind death case hope trouble matter reason peace thought fellow doubt duty feeling month fate chance 
+7	5	tree foot water sun earth bird air rock sky light stone flower star garden shadow cloud line darkness fish wood 
+8	5	eye hand face voice room door arm moment head street hair lip mouth silence woman ear window light step finger 
+9	5	horse day bush head mile station river road hill hut dog cattle ground yard camp sheep night black bank track 
+
+<900> LL/token: -8.72357
+<910> LL/token: -8.72197
+<920> LL/token: -8.72167
+<930> LL/token: -8.72225
+<940> LL/token: -8.72258
+
+0	5	girl heart father woman boy mother child wife love sir lady thing bit mrs brother husband son lord word cabell 
+1	5	year country land money sydney gentleman colony person family people month government town law city england work business australia class 
+2	5	thing world life people soul word book spirit god nature idea power truth beauty work song sense story pleasure age 
+3	5	sea ship boat place day island captain water mate board native king governor wind time prisoner vessel convict bay deck 
+4	5	day night house hour morning time gold bed week evening table paper minute work sleep tea dinner sergeant doctor pocket 
+5	5	man body party fear order line position mark soldier force war officer company bourne enemy sign blood moment danger effect 
+6	5	man time friend life mind death case hope trouble duty fellow feeling reason thought matter peace doubt word manner fate 
+7	5	tree foot water sun earth bird rock sky stone flower light air star garden wood shadow darkness cloud fish spring 
+8	5	eye hand face voice room door arm moment head street hair mouth lip silence woman ear light window finger shoulder 
+9	5	horse day bush station river mile head road hill hut dog ground cattle yard camp sheep place black night track 
+
+<950> LL/token: -8.72427
+<960> LL/token: -8.72336
+<970> LL/token: -8.72437
+<980> LL/token: -8.72127
+<990> LL/token: -8.72133
+
+0	5	girl heart father boy woman mother child wife love sir lady thing mrs brother bit husband son lord word cabell 
+1	5	year land country money sydney gentleman colony person family people town month government law city england business australia mr class 
+2	5	thing world life people soul book word spirit power nature idea god work truth beauty song sense pleasure story age 
+3	5	sea ship place boat island day captain mate native board water king wind governor vessel prisoner time point bay deck 
+4	5	day night house hour time morning gold bed evening week table work paper minute sleep tea dinner sergeant doctor pocket 
+5	5	man body party order officer line company mark soldier force war bourne enemy position time number fear danger chance sign 
+6	5	man time friend life mind death case hope word trouble matter thought fellow feeling peace duty reason care fate doubt 
+7	5	tree foot water sun earth bird rock sky stone air flower light star garden shadow darkness cloud fish sand spring 
+8	5	eye hand face voice room door moment arm head street hair woman lip mouth silence light ear window dream finger 
+9	5	horse day bush head station river mile road hill ground hut dog cattle yard camp sheep black place night bank 
+
+<1000> LL/token: -8.72341
+
+Total time: 1 minutes 16 seconds
+[(0,
+  [('girl', 0.03694770872889619),
+   ('heart', 0.03030225278390722),
+   ('father', 0.02853184174064761),
+   ('boy', 0.027094986401190537),
+   ('woman', 0.0261456355519064),
+   ('mother', 0.025375891620054394),
+   ('child', 0.02492687432647406),
+   ('wife', 0.022668958793041514),
+   ('love', 0.021963360188843845),
+   ('sir', 0.018461025298917227)]),
+ (1,
+  [('year', 0.03410759578160459),
+   ('land', 0.02092511013215859),
+   ('country', 0.020535754015930226),
+   ('money', 0.016842433141992613),
+   ('sydney', 0.014673163351577449),
+   ('gentleman', 0.013883326658657056),
+   ('colony', 0.011024340319494504),
+   ('person', 0.010412494993992792),
+   ('family', 0.010234503626574111),
+   ('people', 0.009811774128954745)]),
+ (2,
+  [('thing', 0.02926166568222091),
+   ('world', 0.024819846426461904),
+   ('life', 0.023378617838157117),
+   ('people', 0.015629060838747787),
+   ('soul', 0.014790313053750738),
+   ('book', 0.013821618428824572),
+   ('spirit', 0.012522150029533373),
+   ('word', 0.011943295924394566),
+   ('power', 0.011848789131718843),
+   ('nature', 0.01060838747784997)]),
+ (3,
+  [('sea', 0.026452699306323515),
+   ('ship', 0.017869709460138734),
+   ('place', 0.017078013471398413),
+   ('boat', 0.016927214235447872),
+   ('island', 0.015821353171810597),
+   ('day', 0.015368955463958982),
+   ('captain', 0.013194933145672062),
+   ('mate', 0.011397908917261486),
+   ('native', 0.01055594651653765),
+   ('board', 0.01020408163265306)]),
+ (4,
+  [('day', 0.05706591906746837),
+   ('night', 0.044487070714522854),
+   ('house', 0.03081387485091052),
+   ('hour', 0.020448313598190025),
+   ('time', 0.019526110639762933),
+   ('morning', 0.01889901262803251),
+   ('gold', 0.014976576044855952),
+   ('bed', 0.014128149323103028),
+   ('evening', 0.011644349355072732),
+   ('week', 0.011509092921170092)]),
+ (5,
+  [('man', 0.057676578137028485),
+   ('body', 0.013784642032332563),
+   ('party', 0.011956312548113935),
+   ('order', 0.010356524249422632),
+   ('officer', 0.009009334103156274),
+   ('line', 0.008792821401077752),
+   ('company', 0.008311682063125481),
+   ('soldier', 0.007914742109314858),
+   ('mark', 0.00790271362586605),
+   ('force', 0.007782428791377983)]),
+ (6,
+  [('man', 0.10722337788517831),
+   ('time', 0.050510083332295314),
+   ('friend', 0.03182571218594686),
+   ('life', 0.0265567195226766),
+   ('mind', 0.02399073255191141),
+   ('death', 0.01981788966256026),
+   ('case', 0.014088015844346732),
+   ('hope', 0.01240642244117537),
+   ('word', 0.009516573037206811),
+   ('trouble', 0.009242535593727034)]),
+ (7,
+  [('tree', 0.02491458543862182),
+   ('foot', 0.02076415956883692),
+   ('water', 0.018478417785477118),
+   ('sun', 0.014652807853327558),
+   ('earth', 0.012318945190318079),
+   ('bird', 0.011669313315047398),
+   ('rock', 0.011007651219864299),
+   ('sky', 0.010863288580915259),
+   ('stone', 0.0098647803281844),
+   ('air', 0.009624175929935998)]),
+ (8,
+  [('eye', 0.06108365990799114),
+   ('hand', 0.059842270525521504),
+   ('face', 0.03499014190784509),
+   ('voice', 0.023927171822895114),
+   ('room', 0.023391670520653312),
+   ('door', 0.02079935739843731),
+   ('moment', 0.01716038264002142),
+   ('arm', 0.016491006012219166),
+   ('head', 0.015383491955309983),
+   ('street', 0.01321714577805905)]),
+ (9,
+  [('horse', 0.03406863618545312),
+   ('day', 0.0205267096682228),
+   ('bush', 0.01806778090588361),
+   ('station', 0.01723625910219403),
+   ('head', 0.01704619697563641),
+   ('river', 0.01703431809272656),
+   ('mile', 0.016024613045389213),
+   ('road', 0.014943634700592756),
+   ('hill', 0.014219022843091835),
+   ('ground', 0.012651010298991483)])]
+
+Coherence Score:  0.7383022065908117
+['australian essays ',
+ 'francis w l adams ',
+ 'melbourne ',
+ 'william inglis &amp ',
+ '1886 ',
+ 'matthew arnold england ',
+ 'master send boy ',
+ 'watches cross-bow bird ',
+ 'swoop quarry carried aloft ',
+ 'cries victory flight ']
+[['australian', 'essays'], ['francis', 'adams'], ['melbourne'], ['william', 'inglis', 'amp'], [], ['matthew', 'arnold', 'england'], ['master', 'send', 'boy'], ['watches', 'cross', 'bow', 'bird'], ['swoop', 'quarry', 'carried', 'aloft'], ['cries', 'victory', 'flight']]
